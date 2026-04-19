@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="font-[Poppins] bg-white text-black leading-relaxed">
+    <header>
+      <nav
+        class="top-0 font-secondary bg-white border-gray-200 dark:bg-gray-900 shadow-xl drop-shadow-gray-100"
+      >
+        <div
+          class="w-screen-2xl flex flex-wrap items-center justify-between mx-[2vw] md:mx-[2vw] xl:mx-[3vw] p-4"
+        >
+          <a
+            href="https://flowbite.com/"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img src="icons/MiniProjectLogo.png" class="h-8" alt="My Logo" />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >TechNova</span
+            >
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div
+            class="transition-all duration-300 hidden w-full md:flex md:w-auto gap-10"
+            id="navbar-default"
+          >
+            <ul
+              class="font-medium flex flex-col justify-center items-center p-4 md:p-0 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="block py-2 px-3 text-white bg-secondary rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:hover:text-secondary"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="products.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="contact.htm"
+                  class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+
+            <div class="flex w-full justify-center items-center mx-auto">
+              <form class="max-w-md mx-5 ml-0 xl:ml-10">
+                <label
+                  for="default-search"
+                  class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+                  >Search</label
+                >
+                <div class="relative">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+                  >
+                    <svg
+                      class="w-4 h-4 text-gray-500 dark:text-gray-400"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                      />
+                    </svg>
+                  </div>
+                  <input
+                    type="search"
+                    id="default-search"
+                    class="w-full md:w-[12vw] md:h-[5vh] xl:w-[15vw] xl:h-[6vh] p-4 ps-10 text-sm text-gray-900 border border-gray-600 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Search"
+                    required
+                  />
+                </div>
+              </form>
+
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACA0lEQVR4nO3ZTUojURDA8b8NBsUL+BHBG5hTzKh3ULMRFF30RtyKMKsZzzAL3fdCV+JWDX6iFxAUxIVuVPyEUQIvDBRGO9Kpauz6wQOhoaq60l3vJYJzzjnnnHPOOfeeMeAceBXrCTgCqnxz5+/cvFyLFLwBz0CZb2oUOEvRhJiCiUUDEgqmIhpwDUQUSARciSbUm9JwmuK1afcab3cTkg/mwF/jm/8H9FnOgapxA44xngNDxg34nYc5oOlE1PFDK3HywRzQ0hve+UYND0B3kc4Dk6KGjaKdB1ZFDfOaySPjOdABXIj8wyhLDOeAfAIvQ1NUxYZzYF7kXsFAxXAObIjcExiIjOZAF3Avjr/9GEkM5sBPkbN+GDITG8yBPyLnMoYqBnPgWOQcwVCkPAfk8fcR6MFYojgHxkWuTXIgNvz6u0AODAIvBjf/En5/yIUlgwb8ImeqwGH491m7bvo57AJTFmf/NErAHFAD7sLaAWbDNe04qvrDE9Ds0ztI+YttVnFUlT4purH2gU6FOOrmWniPZxTiqKuJ4taAgbDWxLVthTjqbkVx9YIbyuLajUIcdTeiuPIXC88qjrpak0e3XvR6Bq9Aq3HUzbYwvKYV4qgrhf35s6J3U2yDWcQx0Rf252ZF76U8wGQVx0Rn2J+3wkS/DX9Pt/iJZRXHOeecc845/nsD6Zdr5dINCCIAAAAASUVORK5CYII="
+                alt="shopping-cart"
+                class="w-12 h-10 px-2 filter dark:invert mt-1"
+              />
+
+              <a
+                href="login.html"
+                class="text-white w-20 h-[5.4vh] bg-secondary hover:bg-variant-secondary rounded-lg ml-3 flex items-center justify-center"
+              >
+                Login
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mt-0 font-primary overflow-x-hidden">
+      <div class="w-[100vw] flex flex-col justify-center items-center">
+        <div class="w-[90%]">
+          <section
+            class="flex flex-wrap justify-center items-center px-5 py-10 gap-8"
+          >
+            <div
+              class="flex-1 min-w-[300px] justify-center items-center ml-[2vw] sm:ml-[10vw] xl:ml-auto"
+            >
+              <h2 class="text-[48px] font-bold mb-4 mx-auto">
+                Get to Know Us <span class="text-blue-600">Better</span>
+              </h2>
+              <p class="font-bold w-[100%] md:w-[80%] xl:-[60%] my-7 mb-9">
+                With over 27 years of experience, we have been providing
+                exceptional Iphone services for commercial and residential
+                properties throughout Bellingham. If you're looking for any type
+                of plumbing repairs, installations or replacements, About Iphone
+                is the company to call. We provide FREE estimates if you live in
+                the local area. Call us today to learn more about our senior
+                citizen and military personnel discounts.
+              </p>
+              <ul
+                class="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-3 mt-8 list-none"
+              >
+                <li class="relative pl-8 group hover:text-secondary">
+                  User-Centered Design
+                  <span
+                    class="absolute left-0 top-0 w-6 h-6 bg-gray-900 text-white flex items-center justify-center rounded-full text-sm transition-colors duration-300 group-hover:bg-secondary"
+                  >
+                    ✓
+                  </span>
+                </li>
+                <li class="relative pl-8 group hover:text-secondary">
+                  Brand Power
+                  <span
+                    class="absolute left-0 top-0 w-6 h-6 bg-gray-900 text-white flex items-center justify-center rounded-full text-sm transition-colors duration-300 group-hover:bg-secondary"
+                  >
+                    ✓
+                  </span>
+                </li>
+                <li class="relative pl-8 group hover:text-secondary">
+                  Ecosystem Integration
+                  <span
+                    class="absolute left-0 top-0 w-6 h-6 bg-gray-900 text-white flex items-center justify-center rounded-full text-sm transition-colors duration-300 group-hover:bg-secondary"
+                  >
+                    ✓
+                  </span>
+                </li>
+                <li class="relative pl-8 group hover:text-secondary">
+                  Retail Experience
+                  <span
+                    class="absolute left-0 top-0 w-6 h-6 bg-gray-900 text-white flex items-center justify-center rounded-full text-sm transition-colors duration-300 group-hover:bg-secondary"
+                  >
+                    ✓
+                  </span>
+                </li>
+                <li class="relative pl-8 group hover:text-secondary">
+                  Innovation Leadership
+                  <span
+                    class="absolute left-0 top-0 w-6 h-6 bg-gray-900 text-white flex items-center justify-center rounded-full text-sm transition-colors duration-300 group-hover:bg-secondary"
+                  >
+                    ✓
+                  </span>
+                </li>
+                <li class="relative pl-8 group hover:text-secondary">
+                  Strategic Vision
+                  <span
+                    class="absolute left-0 top-0 w-6 h-6 bg-gray-900 text-white flex items-center justify-center rounded-full text-sm transition-colors duration-300 group-hover:bg-secondary"
+                  >
+                    ✓
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="max-w-[626px]">
+              <img src="Images/iphone.png" alt="iPhone Models" class="w-full" />
+            </div>
+          </section>
+
+          <hr class="bg-gray-700" />
+
+          <section
+            class="flex flex-wrap justify-center items-center px-5 py-10 gap-8"
+          >
+            <div class="max-w-[580px]">
+              <img src="Images/aboutLaptop.png" alt="MacBook" class="w-full" />
+            </div>
+            <div class="flex-1 text-center min-w-[300px]">
+              <h2 class="text-[48px] font-bold mb-4">
+                We are expert in <strong>Mac Book</strong>
+              </h2>
+              <div class="flex justify-center items-center mt-7">
+                <p class="mb-4 font-bold w-[70%] text-start">
+                  With over 27 years of experience, we have been providing
+                  exceptional Watches products for commercial and residential
+                  properties throughout Bellingham. If you're looking for any
+                  type of plumbing repairs, installations or replacements,
+                  About Watches is the company to call.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="text-center mx-auto px-5 my-10">
+            <h2 class="text-[48px] font-bold mb-0">Apple Product Collection</h2>
+            <img
+              src="Images/detail.png"
+              alt="Apple Product Collection"
+              class="w-full max-w-[1000px] mx-auto rounded-2xl"
+            />
+          </section>
+
+          <div
+            class="w-[90vw] h-[400px] md:h-[300px] xl:h-[300px] my-15 bg-primary rounded-[50px] grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3"
+          >
+            <section class="flex flex-col justify-center items-center z-0">
+              <p class="text-[42px] text-white font-semibold mb-2 lg:mb-10">
+                Our <span class="text-variant-secondary">Newsletter</span>
+              </p>
+              <p
+                class="text-[13px] md:text-[15px] xl:text-[15px] text-white font-semibold mt-5 mb-0 xl:mb-20"
+              >
+                Get updates by subscribe our weekly newsletter
+              </p>
+            </section>
+
+            <div class="w-[100%] flex justify-center items-center px-4 pt-0">
+              <div
+                class="w-[85%] md:w-md max-w-xl h-[100px] xl:h-[300px] flex start-0 items-center xl:justify-start xl:mr-40"
+              >
+                <label class="sr-only">Subscribe</label>
+                <div class="relative w-full">
+                  <div
+                    class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+                  ></div>
+                  <input
+                    type="text"
+                    id="default-search"
+                    placeholder="Enter your email..."
+                    class="w-full h-[60px] p-4 ps-10 text-sm border rounded-full focus:ring-blue-500 focus:border-blue-500 bg-gray-700 border-gray-600 text-white"
+                  />
+                  <button
+                    type="button"
+                    class="text-white w-24 md:w-36 xl:w-36 h-[60px] absolute end-0 top-0 bg-variant-secondary hover:bg-white hover:text-gray-900 font-medium rounded-full text-sm px-4 py-2"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-gray-100 dark:bg-gray-200 overflow-x-hidden font-primary">
+      <div class="w-full flex flex-col justify-center items-center">
+        <div
+          class="w-[90vw] grid grid-cols-1 gap-2 px-4 py-6 lg:py-8 md:grid-cols-3 mx-auto max-w-full"
+        >
+          <div
+            class="flex flex-col justify-center items-center w-[50vw] md:w-[20vw] ml-[8vw] md:ml-[4vw]"
+          >
+            <div class="flex flex-col justify-start items-start gap-7">
+              <a
+                href="https://flowbite.com/"
+                class="flex items-center space-x-3 rtl:space-x-reverse"
+              >
+                <img
+                  src="icons/MiniProjectLogo.png"
+                  class="h-8"
+                  alt="My Logo"
+                />
+                <span
+                  class="self-center text-2xl font-bold whitespace-nowrap dark:text-gray-700"
+                  >TechNova</span
+                >
+              </a>
+              <ul class="text-gray-700  font-medium">
+                <p>Our Address:</p>
+                <p class="font-bold text-gray-900 my-4">
+                  No. 869 Monivong Blvd, Phnom Penh, Cambodia
+                </p>
+                <p>24/7 Free Call:</p>
+                <p class="font-bold text-gray-900">+855 10 999 999</p>
+              </ul>
+
+              <ul class="flex flex-row justify-center items-center gap-5 my-5">
+                <li>
+                  <a href="#">
+                    <i
+                      class="fa-brands fa-facebook text-2xl text-gray-700 hover:text-primary transform transition duration-300 hover:scale-105"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i
+                      class="fa-brands fa-telegram text-2xl text-gray-700 hover:text-primary transform transition duration-300 hover:scale-105"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i
+                      class="fa-brands fa-square-instagram text-2xl text-gray-700 hover:text-primary transform transition duration-300 hover:scale-105"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="grid col-span-2 grid-cols-2 gap-2 px-4 py-6 lg:py-8 md:grid-cols-2 lg:grid-cols-4"
+          >
+            <div class="flex flex-col justify-center items-center">
+              <div class="flex flex-col justify-start items-start">
+                <h2
+                  class="mb-6 text-2xl font-bold text-gray-500 dark:text-gray-700"
+                >
+                  Useful Links
+                </h2>
+                <ul class="text-gray-500 dark:text-gray-800">
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Our Shop</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Services</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> News</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+              <div class="flex flex-col justify-start items-start">
+                <h2
+                  class="mb-6 text-2xl font-bold text-gray-500 dark:text-gray-700"
+                >
+                  Support
+                </h2>
+                <ul class="text-gray-500 dark:text-gray-800">
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> FAQs</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Refund</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary"
+                      >> Privacy Policy</a
+                    >
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> DMCA</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+              <div class="flex flex-col justify-start items-start">
+                <h2
+                  class="mb-6 text-2xl font-bold text-gray-500 dark:text-gray-700"
+                >
+                  Information
+                </h2>
+                <ul class="text-gray-500 dark:text-gray-800">
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> About Us </a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Our Services </a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Pricing Plan</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Vendor Shop</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center">
+              <div class="flex flex-col justify-start items-start">
+                <h2
+                  class="mb-6 text-2xl font-bold text-gray-500 dark:text-gray-700"
+                >
+                  services
+                </h2>
+                <ul class="text-gray-500 dark:text-gray-800">
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Products</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Payment </a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Discount</a>
+                  </li>
+                  <li class="mb-4">
+                    <a href="#" class="hover:text-secondary">> Promotional</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="px-4 py-6 bg-white dark:bg-gray-200 flex items-center justify-center"
+        >
+          <span class="text-sm text-gray-500 dark:text-gray-500 sm:text-center"
+            ><a href="https://flowbite.com/">Tech Nova Copyright</a>© 2024 Shop
+            Pty. Ltd.
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  </body>
+</html>

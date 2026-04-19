@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main class="font-primary">
+      <section
+        class="min-h-screen w-full bg-gray-100 flex items-center justify-center px-[5%] py-10"
+      >
+        <div
+          class="bg-white p-8 rounded-lg shadow-lg w-full max-w-[1200px] flex flex-col md:flex-row"
+        >
+          <div class="md:w-1/2 w-full p-4">
+            <div class="flex items-center justify-between mb-6">
+              <a href="index.html" class="flex items-center text-gray-600">
+                <svg
+                  class="w-4 h-4 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 19l-7-7m0 0l7-7m-7 7h18"
+                  />
+                </svg>
+                Back
+              </a>
+            </div>
+
+            <h2 class="text-3xl text-gray-700 font-bold mb-2">Login</h2>
+            <p class="text-gray-600 mb-6">Enter to confirm your account.</p>
+
+            <button
+              class="w-full text-lg py-3 border border-gray-300 rounded-xl flex items-center justify-center mb-4 hover:bg-gray-50 transition shadow-md drop-shadow-gray-200"
+            >
+              <img
+                src="Images/download (3).png"
+                alt="Google"
+                class="w-5 h-5 mr-4"
+              />
+              Sign in with Google
+            </button>
+            <button
+              class="w-full text-lg py-3 border border-gray-300 rounded-xl flex items-center justify-center mb-6 hover:bg-gray-50 transition shadow-md drop-shadow-gray-200"
+            >
+              <img
+                src="Images/download (4).png"
+                alt="Facebook"
+                class="w-5 h-5 mr-4"
+              />
+              Sign in with Facebook
+            </button>
+
+            <div class="flex items-center mb-6">
+              <hr class="flex-grow border-gray-300" />
+              <span class="mx-4 text-gray-500">or</span>
+              <hr class="flex-grow border-gray-300" />
+            </div>
+
+            <div class="mb-6">
+              <label
+                for="email"
+                class="block text-lg text-gray-700 font-bold mb-2"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                class="border rounded-xl w-full py-3 px-4 text-gray-700 focus:outline-none shadow-md drop-shadow-gray-200"
+                placeholder="Email"
+              />
+            </div>
+
+            <div class="mb-6">
+              <label
+                for="password"
+                class="block text-lg text-gray-700 font-bold mb-2"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                class="border rounded-xl w-full py-3 px-4 text-gray-700 focus:outline-none shadow-md drop-shadow-gray-200"
+                placeholder="Password"
+              />
+              <a
+                href="#"
+                class="text-blue-500 text-sm hover:underline mt-2 inline-block"
+                >Forgot your Password?</a
+              >
+            </div>
+
+            <button
+              class="w-full bg-secondary hover:bg-variant-secondary text-white font-bold py-3 px-4 rounded-xl transition mb-4 shadow-xl drop-shadow-gray-100"
+            >
+              Login
+            </button>
+          </div>
+
+          <div
+            class="md:w-1/2 w-full flex items-center justify-center bg-blue-50 rounded-lg mt-8 md:mt-0"
+          >
+            <div class="text-center px-4 py-6">
+              <img
+                src="icons/MiniProjectLogo.png"
+                alt="TechNova Logo"
+                class="mx-auto mb-4 max-w-[200px]"
+              />
+              <span class="text-5xl md:text-6xl font-bold text-gray-800"
+                >TechNova</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+  </body>
+</html>

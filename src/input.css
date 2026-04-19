@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Ubuntu", sans-serif;
+  --color-primary: #081831;
+  --color-secondary:#3B86F7;
+  --color-variant-primary: #022554;
+  --color-variant-secondary:#0088FF;
+  --color-primary-hover: #850A0B;
+  --width-primary: 200px
+}
