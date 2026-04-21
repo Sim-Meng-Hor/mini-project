@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samsung 25 Ultra</title>
+    <title>Product Details - TechNova</title>
 
     <link rel="stylesheet" href="src/output.css" />
     <link rel="stylesheet" href="src/theme.css" />
@@ -12,176 +12,13 @@
       href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-
-    <style>
-      :root {
-        --detail-bg: #f3f6fb;
-        --detail-ink: #0f203d;
-        --detail-blue: #3b86f7;
-        --detail-orange: #ff7a00;
-        --detail-soft-border: #e5ebf5;
-      }
-
-      .modern-product-main {
-        background:
-          radial-gradient(
-            circle at 9% 12%,
-            rgba(255, 122, 0, 0.1),
-            transparent 30%
-          ),
-          radial-gradient(
-            circle at 85% 10%,
-            rgba(59, 134, 247, 0.14),
-            transparent 34%
-          ),
-          linear-gradient(180deg, #f3f6fb 0%, #f7f9fd 56%, #f3f6fb 100%);
-      }
-
-      .modern-shell {
-        width: min(1280px, 93vw);
-        margin: 2.1rem auto 0;
-      }
-
-      .floating-chip {
-        border: 1px solid #dce6f5;
-        background: #ffffff;
-        color: #36527e;
-      }
-
-      .modern-panel {
-        background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
-        border: 1px solid var(--detail-soft-border);
-        border-radius: 28px;
-        box-shadow: 0 16px 34px rgba(8, 24, 49, 0.08);
-      }
-
-      .stage {
-        min-height: 500px;
-        border-radius: 24px;
-        background:
-          radial-gradient(
-            circle at 35% 18%,
-            rgba(255, 255, 255, 0.42),
-            transparent 42%
-          ),
-          linear-gradient(160deg, #8ca3d3 0%, #7f96c8 52%, #6f8ac0 100%);
-        border: 1px solid #d7e1f1;
-        box-shadow:
-          inset 0 1px 0 rgba(255, 255, 255, 0.33),
-          0 22px 30px rgba(18, 43, 80, 0.16);
-      }
-
-      .thumb {
-        border: 1px solid #dce5f2;
-        background: #f8fbff;
-        border-radius: 14px;
-        transition: all 200ms ease;
-      }
-
-      .thumb:hover,
-      .thumb.is-active {
-        border-color: #3b86f7;
-        transform: translateY(-2px);
-        box-shadow: 0 12px 20px rgba(8, 24, 49, 0.12);
-      }
-
-      .buy-card {
-        border-radius: 24px;
-        border: 1px solid var(--detail-soft-border);
-        background: #ffffff;
-        box-shadow: 0 12px 24px rgba(8, 24, 49, 0.08);
-      }
-
-      .swatch {
-        width: 2.15rem;
-        height: 2.15rem;
-        border-radius: 9999px;
-        border: 1px solid #d8e1ee;
-      }
-
-      .swatch.is-active {
-        border: 3px solid var(--detail-orange);
-      }
-
-      .memory-pill {
-        border-radius: 9999px;
-        border: 1px solid #dce5f2;
-        background: #f8fbff;
-        color: #2a4873;
-        font-weight: 600;
-        transition: all 180ms ease;
-      }
-
-      .memory-pill:hover,
-      .memory-pill.is-active {
-        border-color: var(--detail-blue);
-        background: #eaf3ff;
-        color: #1d3f72;
-      }
-
-      .primary-cta {
-        background: linear-gradient(120deg, #ff7a00, #ff8f27);
-      }
-
-      .primary-cta:hover {
-        filter: brightness(0.96);
-      }
-
-      .surface-card {
-        border: 1px solid #e4ebf4;
-        border-radius: 22px;
-        background: #ffffff;
-        box-shadow: 0 8px 18px rgba(8, 24, 49, 0.06);
-      }
-
-      .fade-up {
-        animation: fadeUp 0.5s ease both;
-      }
-
-      .fade-up.delay-1 {
-        animation-delay: 0.08s;
-      }
-
-      .fade-up.delay-2 {
-        animation-delay: 0.16s;
-      }
-
-      @keyframes fadeUp {
-        from {
-          opacity: 0;
-          transform: translateY(10px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      @media (min-width: 1024px) {
-        .buy-card {
-          position: sticky;
-          top: 1.4rem;
-        }
-      }
-
-      @media (max-width: 1023px) {
-        .modern-shell {
-          width: 94vw;
-          margin-top: 1.4rem;
-        }
-
-        .stage {
-          min-height: 360px;
-        }
-      }
-    </style>
   </head>
-
-  <body class="bg-[#f4f7fb]">
+  <body class="bg-white">
     <header>
       <nav
         class="top-0 font-secondary bg-white border-gray-200 dark:bg-gray-900 shadow-xl drop-shadow-gray-100"
@@ -289,19 +126,18 @@
                       />
                     </svg>
                   </div>
-                  <label>
-                    <input
-                      type="search"
-                      class="w-full md:w-[12vw] md:h-[5vh] xl:w-[15vw] xl:h-[6vh] p-4 ps-10 text-sm text-gray-900 border border-gray-600 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                      placeholder="Search"
-                      required
-                    />
-                  </label>
+                  <input
+                    type="search"
+                    id="default-search"
+                    class="w-full md:w-[12vw] md:h-[5vh] xl:w-[15vw] xl:h-[6vh] p-4 ps-10 text-sm text-gray-900 border border-gray-600 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Search"
+                    required
+                  />
                 </div>
               </form>
 
               <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACA0lEQVR4nO3ZTUojURDA8b8NBsUL+BHBG5hTzKh3ULMRFF30RtyKMKsZzzAL3fdCV+JWDX6iFxAUxIVuVPyEUQIvDBRGO9Kpauz6wQOhoaq60l3vJYJzzjnnnHPOOfeeMeAceBXrCTgCqnxz5+/cvFyLFLwBz0CZb2oUOEvRhJiCiUUDEgqmIhpwDUQUSARciSbUm9JwmuK1afcab3cTkg/mwF/jm/8H9FnOgapxA44xngNDxg34nYc5oOlE1PFDK3HywRzQ0hve+UYND0B3kc4Dk6KGjaKdB1ZFDfOaySPjOdABXIj8wyhLDOeAfAIvQ1NUxYZzYF7kXsFAxXAObIjcExiIjOZAF3Avjr/9GEkM5sBPkbN+GDITG8yBPyLnMoYqBnPgWOQcwVCkPAfk8fcR6MFYojgHxkWuTXIgNvz6u0AODAIvBjf/En5/yIUlgwb8ImeqwGH491m7bvo57AJTFmf/NErAHFAD7sLaAWbDNe04qvrDE9Ds0ztI+YttVnFUlT4purH2gU6FOOrmWniPZxTiqKuJ4taAgbDWxLVthTjqbkVx9YIbyuLajUIcdTeiuPIXC88qjrpak0e3XvR6Bq9Aq3HUzbYwvKYV4qgrhf35s6J3U2yDWcQx0Rf252ZF76U8wGQVx0Rn2J+3wkS/DX9Pt/iJZRXHOeecc845/nsD6Zdr5dINCCIAAAAASUVORK5CYII="
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAACA0lEQVR4nO3ZTUojURDA8b8NBsUL+BHBG5hTzKh3ULMRFF30RtyKMKsZzzAL3fdCV+JWDX6iFxAUxIVuVPyEUQIvDBRGO9Kpauz6wQOhoaq60l3vJYJzzjnnnHPOOfeeMeAceBXrCTgCqnxz5+/cvFyLFLwBz0CZb2oUOEvRhJiCiUUDEgqmIhpwDUQUSARciSbUm9JwmuK1afcab3cTkg/mwF/jm/8H9FnOgapxA44xngNDxg34nYc5oOlE1PFDK3HywRzQ0hve+UYND0B3kc4Dk6KGjaKdB1ZFDfOaySPjOdABXIj8wyhLDOeAfAIvQ1NUxYZzYF7kXsFAxXAObIjcExiIjOZAF3Avjr/9GEkM5sBPkbN+GDITG8yBPyLnMoYqBnPgWOQcwVCkPAfk8fcR6MFYojgHxkWuTXIgNvz6u0AODAIvBjf/En5/yIUlgwb8ImeqwGH491m7bvo57AJTFmf/NErAHFAD7sLaAWbDNe04qvrDE9Ds0ztI+YttVnFUlT4purH2gU6FOOrmWniPZxTiqLuJ4taAgbDWxLVthTjqbkVx9YIbyuLajUIcdTeiuPIXC88qjrpak0e3XvR6Bq9Aq3HUzbYwvKYV4qgrhf35s6J3U2yDWcQx0Rf252ZF76U8wGQVx0Rn2J+3wkS/DX9Pt/iJZRXHOeecc845/nsD6Zdr5dINCCIAAAAASUVORK5CYII="
                 alt="shopping-cart"
                 class="w-12 h-10 px-2 filter dark:invert mt-1"
               />
@@ -318,304 +154,272 @@
       </nav>
     </header>
 
-    <main class="font-primary overflow-x-hidden pb-20 modern-product-main">
-      <section class="modern-shell modern-panel p-4 md:p-6 lg:p-8">
-        <div
-          class="flex flex-wrap items-center gap-2 text-[13px] md:text-sm text-[#5f6f89] fade-up"
-        >
-          <a href="products.html" class="hover:text-secondary transition"
-            >Products</a
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <!-- Breadcrumb -->
+      <nav class="mb-8 text-gray-600">
+        <a href="index.html" class="hover:text-blue-500">Home</a>
+        <span class="mx-2">/</span>
+        <a href="products.html" class="hover:text-blue-500">Products</a>
+        <span class="mx-2">/</span>
+        <span class="text-slate-900 font-bold">Samsung 25 Ultra</span>
+      </nav>
+
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        <!-- Product Image Gallery Section -->
+        <div>
+          <div
+            class="bg-gray-100 h-96 rounded-lg flex items-center justify-center mb-4 overflow-hidden"
           >
-          <span>/</span>
-          <a href="products.html" class="hover:text-secondary transition"
-            >Smartphones</a
-          >
-          <span>/</span>
-          <span class="font-semibold text-[#19315a]"
-            >Samsung Galaxy S25 Ultra</span
-          >
-          <span
-            class="ml-auto rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.12em] floating-chip"
-            >In Stock</span
-          >
+            <img
+              src="Images/card1.webp"
+              alt="Samsung 25 Ultra"
+              class="h-full object-contain"
+            />
+          </div>
         </div>
 
-        <div
-          class="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-6 lg:gap-8 mt-4 lg:mt-6"
-        >
-          <div class="fade-up delay-1">
+        <!-- Product Information Section -->
+        <div>
+          <h1 class="text-4xl font-bold mb-2">Samsung 25 Ultra</h1>
+          <p class="text-gray-600 mb-4">
+            Premium flagship smartphone with advanced camera and display
+            technology
+          </p>
+
+          <!-- Rating and Reviews -->
+          <div class="flex items-center mb-6">
+            <div class="text-yellow-400 text-xl">★★★★★</div>
+            <span class="ml-3 text-gray-600">(245 reviews)</span>
+          </div>
+
+          <!-- Price Section -->
+          <div class="mb-6">
+            <p class="text-gray-600 line-through text-lg">$1399.99</p>
+            <p class="text-4xl font-bold text-blue-600">$1200.00</p>
+            <p class="text-green-600 font-bold mt-2">Save $199.99 (14% off)</p>
+          </div>
+
+          <!-- Product Details -->
+          <div class="bg-gray-50 p-4 rounded-lg mb-6">
+            <h3 class="font-bold mb-3">Key Features:</h3>
+            <ul class="space-y-2 text-gray-700">
+              <li>✓ 6.8" Dynamic AMOLED 2X Display</li>
+              <li>✓ Snapdragon 8 Gen 3 Processor</li>
+              <li>✓ 200MP Main Camera with AI Processing</li>
+              <li>✓ 12GB RAM / 256GB Storage</li>
+              <li>✓ 5000mAh Battery with Fast Charging</li>
+              <li>✓ IP68 Water & Dust Resistance</li>
+            </ul>
+          </div>
+
+          <!-- Quantity and Add to Cart -->
+          <div class="mb-6">
+            <label class="block text-gray-700 font-bold mb-2">Quantity:</label>
             <div
-              class="stage relative flex items-end justify-center overflow-hidden px-6 pt-8"
+              class="flex items-center border border-gray-300 rounded-lg w-32"
             >
-              <div
-                class="absolute top-5 left-5 rounded-full bg-white/90 text-[#0f203d] text-xs font-semibold px-3 py-1.5"
-              >
-                New Arrival
-              </div>
-              <div
-                class="absolute top-5 right-5 rounded-full bg-[#0f203d] text-white text-xs font-semibold px-3 py-1.5"
-              >
-                Free Buds 3
-              </div>
-              <img
-                src="Images/card1.webp"
-                alt="Samsung Galaxy S25 Ultra"
-                class="w-[76%] md:w-[66%] lg:w-[74%] max-w-[430px] object-contain drop-shadow-[0_24px_34px_rgba(8,24,49,0.35)]"
+              <button class="px-4 py-2 text-gray-600 hover:text-gray-900">
+                -
+              </button>
+              <input
+                type="number"
+                value="1"
+                class="flex-1 text-center py-2 focus:outline-none"
               />
-            </div>
-
-            <div class="grid grid-cols-4 gap-3 mt-4">
-              <button
-                class="thumb is-active h-[88px] md:h-[102px] flex items-center justify-center overflow-hidden"
-              >
-                <img
-                  src="Images/card1.webp"
-                  alt="Samsung Galaxy S25 Ultra front"
-                  class="w-[58%] object-contain"
-                />
-              </button>
-              <button
-                class="thumb h-[88px] md:h-[102px] flex items-center justify-center overflow-hidden"
-              >
-                <img
-                  src="Images/card1.webp"
-                  alt="Samsung Galaxy S25 Ultra rear"
-                  class="w-[56%] object-contain opacity-75"
-                />
-              </button>
-              <button
-                class="thumb h-[88px] md:h-[102px] flex items-center justify-center overflow-hidden"
-              >
-                <img
-                  src="Images/card1.webp"
-                  alt="Samsung Galaxy S25 Ultra side"
-                  class="w-[50%] object-contain opacity-65"
-                />
-              </button>
-              <button
-                class="thumb h-[88px] md:h-[102px] flex items-center justify-center overflow-hidden"
-              >
-                <img
-                  src="Images/card1.webp"
-                  alt="Samsung Galaxy S25 Ultra in hand"
-                  class="w-[52%] object-contain opacity-55"
-                />
+              <button class="px-4 py-2 text-gray-600 hover:text-gray-900">
+                +
               </button>
             </div>
           </div>
 
-          <aside class="buy-card p-5 md:p-6 fade-up delay-2">
-            <p
-              class="text-[12px] uppercase tracking-[0.22em] text-[#6681ad] font-semibold"
+          <!-- Action Buttons -->
+          <div class="space-y-3">
+            <button
+              class="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-lg font-bold transition"
             >
-              Samsung Flagship
-            </p>
-            <h1
-              class="text-[30px] md:text-[34px] lg:text-[38px] leading-[1.1] font-bold text-[#0f203d] mt-2"
+              Add to Cart
+            </button>
+            <button
+              class="w-full border-2 border-blue-500 text-blue-500 hover:bg-blue-50 py-3 rounded-lg font-bold transition"
             >
-              Galaxy S25 Ultra
-            </h1>
-            <p class="text-[#4f6283] text-sm md:text-base mt-3 leading-7">
-              An ultra-premium smartphone with AI camera enhancements, top-tier
-              performance, and a refined titanium finish built for creators and
-              power users.
+              Add to Wishlist
+            </button>
+          </div>
+
+          <!-- Shipping Info -->
+          <div class="mt-6 p-4 bg-blue-50 rounded-lg">
+            <p class="text-sm text-gray-700">
+              <strong>Free Shipping</strong> on orders over $50
             </p>
-
-            <div class="flex flex-wrap items-center gap-3 mt-4">
-              <div class="flex text-[#ff9a2f] text-sm gap-1">
-                <i class="fas fa-star"></i><i class="fas fa-star"></i
-                ><i class="fas fa-star"></i><i class="fas fa-star"></i
-                ><i class="fas fa-star"></i>
-              </div>
-              <span class="text-sm text-[#587099] font-semibold"
-                >4.9 rating</span
-              >
-              <span class="text-sm text-[#8ca0bd]">1,248 reviews</span>
-            </div>
-
-            <div class="mt-5 py-5 border-y border-[#e7edf6]">
-              <p
-                class="text-[34px] md:text-[38px] leading-none font-bold text-[#0f203d]"
-              >
-                $1,599
-              </p>
-              <p class="text-[#6480a8] font-medium mt-2">
-                or $266.50 per month for 6 months
-              </p>
-            </div>
-
-            <div class="mt-5 space-y-5">
-              <div>
-                <p class="text-sm font-semibold text-[#304e7b]">
-                  Color: Ocean Blue
-                </p>
-                <div class="flex items-center gap-3 mt-3">
-                  <button
-                    class="swatch is-active bg-[#6f89bd]"
-                    aria-label="Ocean Blue"
-                  ></button>
-                  <button
-                    class="swatch bg-[#111827]"
-                    aria-label="Graphite"
-                  ></button>
-                  <button
-                    class="swatch bg-[#a4b5d7]"
-                    aria-label="Silver Sky"
-                  ></button>
-                  <button
-                    class="swatch bg-[#d8deea]"
-                    aria-label="Pearl White"
-                  ></button>
-                  <button
-                    class="swatch bg-[#ceb8a1]"
-                    aria-label="Sandstone"
-                  ></button>
-                </div>
-              </div>
-
-              <div>
-                <p class="text-sm font-semibold text-[#304e7b]">Storage</p>
-                <div class="grid grid-cols-3 gap-3 mt-3 text-sm">
-                  <button class="memory-pill py-2 is-active">256 GB</button>
-                  <button class="memory-pill py-2">512 GB</button>
-                  <button class="memory-pill py-2">1 TB</button>
-                </div>
-              </div>
-
-              <div class="flex flex-wrap items-center justify-between gap-3">
-                <div
-                  class="inline-flex items-center rounded-full border border-[#dfe7f3] bg-[#f8fbff] overflow-hidden"
-                >
-                  <button class="w-10 h-10 text-[#617da8] hover:text-[#0f203d]">
-                    -
-                  </button>
-                  <span class="w-10 text-center font-semibold text-[#0f203d]"
-                    >1</span
-                  >
-                  <button class="w-10 h-10 text-[#ff7a00] hover:text-[#d76500]">
-                    +
-                  </button>
-                </div>
-                <p class="text-sm font-semibold text-[#ff7a00]">
-                  Only 9 units left
-                </p>
-              </div>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-6">
-              <a
-                href="login.html"
-                class="primary-cta h-12 rounded-full text-white text-sm md:text-base font-semibold flex items-center justify-center transition"
-                >Buy Now</a
-              >
-              <a
-                href="products.html"
-                class="h-12 rounded-full border-2 border-[#ff7a00] text-[#ff7a00] text-sm md:text-base font-semibold flex items-center justify-center hover:bg-[#fff4ea] transition"
-                >Add to Cart</a
-              >
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-5">
-              <div class="rounded-2xl bg-[#f8fbff] border border-[#e1e9f6] p-3">
-                <p class="text-sm font-semibold text-[#233f67]">
-                  Free Delivery
-                </p>
-                <p class="text-xs text-[#6e86ab] mt-1">
-                  Estimated in 1 to 3 days
-                </p>
-              </div>
-              <div class="rounded-2xl bg-[#f8fbff] border border-[#e1e9f6] p-3">
-                <p class="text-sm font-semibold text-[#233f67]">
-                  30-Day Returns
-                </p>
-                <p class="text-xs text-[#6e86ab] mt-1">
-                  No-question return policy
-                </p>
-              </div>
-            </div>
-          </aside>
+            <p class="text-sm text-gray-700 mt-2">
+              <strong>30-day Money Back</strong> Guarantee
+            </p>
+            <p class="text-sm text-gray-700 mt-2">
+              <strong>2-year Warranty</strong> included
+            </p>
+          </div>
         </div>
-      </section>
+      </div>
 
-      <section
-        class="modern-shell mt-7 grid grid-cols-1 lg:grid-cols-[1.4fr_0.6fr] gap-6"
-      >
-        <article class="surface-card p-6 md:p-7">
-          <p
-            class="text-xs uppercase tracking-[0.2em] text-[#7089af] font-semibold"
+      <!-- Product Specifications -->
+      <div class="bg-gray-50 p-8 rounded-lg mb-16">
+        <h2 class="text-2xl font-bold mb-6">Specifications</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <p class="text-gray-600 font-bold">Brand</p>
+            <p class="text-slate-900">Samsung</p>
+          </div>
+          <div>
+            <p class="text-gray-600 font-bold">Model</p>
+            <p class="text-slate-900">Galaxy S25 Ultra</p>
+          </div>
+          <div>
+            <p class="text-gray-600 font-bold">Display</p>
+            <p class="text-slate-900">6.8" Dynamic AMOLED 2X</p>
+          </div>
+          <div>
+            <p class="text-gray-600 font-bold">Processor</p>
+            <p class="text-slate-900">Snapdragon 8 Gen 3</p>
+          </div>
+          <div>
+            <p class="text-gray-600 font-bold">RAM</p>
+            <p class="text-slate-900">12GB</p>
+          </div>
+          <div>
+            <p class="text-gray-600 font-bold">Storage</p>
+            <p class="text-slate-900">256GB</p>
+          </div>
+          <div>
+            <p class="text-gray-600 font-bold">Main Camera</p>
+            <p class="text-slate-900">200MP with AI Processing</p>
+          </div>
+          <div>
+            <p class="text-gray-600 font-bold">Battery</p>
+            <p class="text-slate-900">5000mAh with Fast Charging</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Related Products Section -->
+      <div>
+        <h2 class="text-2xl font-bold mb-10">You May Also Like</h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-12 place-items-center"
+        >
+          <!-- Related Product 1 -->
+          <div
+            class="bg-white w-[275px] h-[370px] border border-gray-300 rounded-[20px] shadow-md drop-shadow-gray-100 p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg"
           >
-            Product Story
-          </p>
-          <h2 class="text-2xl md:text-3xl font-bold text-[#0f203d] mt-2">
-            Designed for creators, built for every day
-          </h2>
-          <p class="text-[#536785] leading-8 mt-4">
-            Galaxy S25 Ultra combines a bright and adaptive display, intelligent
-            image processing, and all-day battery reliability into one clean
-            premium build. It is engineered for demanding workflows while
-            staying lightweight and elegant.
-          </p>
+            <img
+              src="Images/card12.jpg"
+              alt="Beat Studio Pro"
+              class="w-full h-48 object-contain mx-auto mb-4"
+            />
+            <p class="font-bold text-[19px] mb-2">Beat Studio Pro</p>
+            <div class="text-yellow-400 text-md">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
 
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-            <div class="rounded-2xl border border-[#e4ebf4] bg-[#f8fbff] p-4">
-              <p class="text-sm text-[#7388ab]">Display</p>
-              <p class="font-semibold text-[#1a3760] mt-1">
-                6.8 inch Dynamic AMOLED 2X
-              </p>
-            </div>
-            <div class="rounded-2xl border border-[#e4ebf4] bg-[#f8fbff] p-4">
-              <p class="text-sm text-[#7388ab]">Camera</p>
-              <p class="font-semibold text-[#1a3760] mt-1">
-                200 MP main with AI mode
-              </p>
-            </div>
-            <div class="rounded-2xl border border-[#e4ebf4] bg-[#f8fbff] p-4">
-              <p class="text-sm text-[#7388ab]">Performance</p>
-              <p class="font-semibold text-[#1a3760] mt-1">
-                Snapdragon Gen 4 flagship chip
-              </p>
-            </div>
-            <div class="rounded-2xl border border-[#e4ebf4] bg-[#f8fbff] p-4">
-              <p class="text-sm text-[#7388ab]">Battery</p>
-              <p class="font-semibold text-[#1a3760] mt-1">
-                5000 mAh fast charging
-              </p>
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-xl font-semibold text-gray-900">$200</span>
+              <button
+                class="bg-secondary text-white px-4 py-2 rounded-[8px] hover:bg-variant-secondary transition duration-300 hover:scale-105"
+              >
+                Add to cart
+              </button>
             </div>
           </div>
-        </article>
 
-        <article class="surface-card p-6 md:p-7">
-          <p
-            class="text-xs uppercase tracking-[0.2em] text-[#7089af] font-semibold"
+          <!-- Related Product 2 -->
+          <div
+            class="bg-white w-[275px] h-[370px] border border-gray-300 rounded-[20px] shadow-md drop-shadow-gray-100 p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg"
           >
-            In The Box
-          </p>
-          <h2 class="text-2xl font-bold text-[#0f203d] mt-2">What You Get</h2>
-          <ul class="space-y-3 mt-5 text-[#4f6485]">
-            <li
-              class="rounded-xl bg-[#f8fbff] border border-[#e3eaf5] px-4 py-3"
-            >
-              Galaxy S25 Ultra handset
-            </li>
-            <li
-              class="rounded-xl bg-[#f8fbff] border border-[#e3eaf5] px-4 py-3"
-            >
-              USB-C braided cable
-            </li>
-            <li
-              class="rounded-xl bg-[#f8fbff] border border-[#e3eaf5] px-4 py-3"
-            >
-              SIM tool and quick guide
-            </li>
-            <li
-              class="rounded-xl bg-[#f8fbff] border border-[#e3eaf5] px-4 py-3"
-            >
-              Protective clear case
-            </li>
-          </ul>
-        </article>
-      </section>
-    </main>
+            <img
+              src="Images/card13.jpg"
+              alt="Asus ROG Strix G16"
+              class="w-full h-48 object-contain mx-auto mb-4"
+            />
+            <p class="font-bold text-[19px] mb-2">Asus ROG Strix G16</p>
+            <div class="text-yellow-400 text-md">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-xl font-semibold text-gray-900">$1450</span>
+              <button
+                class="bg-secondary text-white px-4 py-2 rounded-[8px] hover:bg-variant-secondary transition duration-300 hover:scale-105"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <!-- Related Product 3 -->
+          <div
+            class="bg-white w-[275px] h-[370px] border border-gray-300 rounded-[20px] shadow-md drop-shadow-gray-100 p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg"
+          >
+            <img
+              src="Images/card5.webp"
+              alt="Chrome Watch"
+              class="w-full h-48 object-contain mx-auto mb-4"
+            />
+            <p class="font-bold text-[19px] mb-2">Chrome Watch</p>
+            <div class="text-yellow-400 text-md">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-xl font-semibold text-gray-900">$120</span>
+              <button
+                class="bg-secondary text-white px-4 py-2 rounded-[8px] hover:bg-variant-secondary transition duration-300 hover:scale-105"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+
+          <!-- Related Product 4 -->
+          <div
+            class="bg-white w-[275px] h-[370px] border border-gray-300 rounded-[20px] shadow-md drop-shadow-gray-100 p-6 transform transition duration-300 hover:scale-105 hover:shadow-lg"
+          >
+            <img
+              src="Images/card7.webp"
+              alt="Iphone 12 pro"
+              class="w-full h-48 object-contain mx-auto mb-4"
+            />
+            <p class="font-bold text-[19px] mb-2">Iphone 12 pro</p>
+            <div class="text-yellow-400 text-md">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <div class="flex justify-between items-center mt-4">
+              <span class="text-xl font-semibold text-gray-900">$820</span>
+              <button
+                class="bg-secondary text-white px-4 py-2 rounded-[8px] hover:bg-variant-secondary transition duration-300 hover:scale-105"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="bg-gray-100 dark:bg-gray-200 overflow-x-hidden font-primary">
       <div class="w-full flex flex-col justify-center items-center">
@@ -787,7 +591,5 @@
         </div>
       </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
   </body>
 </html>
